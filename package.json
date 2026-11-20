@@ -1,0 +1,15 @@
+{
+  "name": "oasisform",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Formulario de iniciación del agente de WhatsApp de Piscinas Oasis LP",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch --env-file-if-exists=.env servidor.js",
+    "start": "node servidor.js",
+    "prueba": "node --test \"pruebas/*.test.js\""
+  },
+  "engines": {
+    "node": ">=22.9"
+  }
+}
